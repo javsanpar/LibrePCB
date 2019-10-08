@@ -252,7 +252,7 @@ private:  // Data
   /// the directory "v#/libraries"
   FilePath mLibrariesPath;
 
-  /// to lock the version directory (#mVersionPath)
+  /// to lock the version directory (librepcb#mVersionPath)
   DirectoryLock mLock;
 
   /// the WorkspaceSettings object

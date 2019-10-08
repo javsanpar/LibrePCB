@@ -97,10 +97,10 @@ public:
    * The project must be closed and destroyed automatically after the last
    * opened window of the project is closed, because without a window the user
    * is no longer able to close the project himself. So, every project related
-   * window have to "ask" the #ProjectEditor object whether it is allowed to
-   * close or not. If the last opened window wants to close, the editor will
-   * first ask the user if unsaved changes should be written to the harddisc.
-   * Only if the user accepts this question and the project is saved
+   * window have to "ask" the librepcb#ProjectEditor object whether it is
+   * allowed to close or not. If the last opened window wants to close, the
+   * editor will first ask the user if unsaved changes should be written to the
+   * harddisc. Only if the user accepts this question and the project is saved
    * successfully, the method will return true to allow the last window to
    * close. Then it will also close the whole project.
    *

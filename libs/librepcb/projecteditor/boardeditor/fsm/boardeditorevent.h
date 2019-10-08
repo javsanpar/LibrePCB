@@ -79,10 +79,10 @@ public:
     Edit_Remove,          ///< remove the selected elements
     // Redirected QEvent's (SEE_RedirectedQEvent objects, with pointer to a
     // QEvent)
-    GraphicsViewEvent,  ///< event from #GraphicsView @see
-                        ///< #project#SEE_RedirectedQEvent
+    GraphicsViewEvent,  ///< event from librepcb#GraphicsView @see
+                        ///< librepcb#project#SEE_RedirectedQEvent
     // Special Events (with some additional parameters)
-    StartAddDevice,  ///< @see #project#BEE_StartAddDevice
+    StartAddDevice,  ///< @see librepcb#project#BEE_StartAddDevice
     // SwitchToSchematicPage,  ///< @see #project#SEE_SwitchToSchematicPage
   };
 
